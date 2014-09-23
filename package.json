@@ -1,0 +1,54 @@
+{
+  "name": "geocoder-server",
+  "version": "0.0.0",
+  "main": "lib/geocoder-server.js",
+  "description": "The best module ever.",
+  
+      "homepage": "https://github.com/ceoaliongroo/geocoder-server",
+    
+    "bugs": "https://github.com/ceoaliongroo/geocoder-server/issues",
+  "author": {
+    "name": "Gizra",
+    "email": "info@gizra.com"  ,
+        "url": "www.gizra.com" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ceoaliongroo/geocoder-server"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "geocoder-server"  ,
+        "" 
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "grunt-mocha-cli": "^1.9.0",
+    "jshint-stylish": "^0.2.0" 
+  },
+  "scripts": {
+    "test": "grunt" 
+  },
+  "bin": {
+    "geocoder-server": "cli.js"
+  },
+  "preferGlobal": "true",
+  "dependencies": {
+    "async": "^0.9.0",
+    "express": "^4.8.5",
+    "googlemaps": "^0.1.9",
+    "lodash": "^2.4.1",
+    "moment": "^2.8.3",
+    "nice-json2csv": "^0.1.3",
+    "q": "^1.0.1",
+    "q-io": "^1.11.4",
+    "request": "^2.40.0"
+  }
+}
